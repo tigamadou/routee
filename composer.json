@@ -1,0 +1,19 @@
+{
+    "name": "tigamadou/routee",
+    "description": "Php Package for Routee Api Integration",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Amadou Ibrahim",
+            "email": "amadou140589@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Tigamadou\\Routee\\": "src/"
+        }
+    },
+    "require": {}
+}
