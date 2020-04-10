@@ -13,8 +13,6 @@ class Routee
         $this->request->postfields=[];
     }
 
-
-
     public function token(){
         $this->request->url = "https://auth.routee.net/oauth/token";
         $this->request->method = "POST";
@@ -41,8 +39,7 @@ class Routee
         $this->send_request();
     }
 
-    public function send_request(){
-        
+    public function send_request(){        
         $postfields = $this->parse_postfields();
         $curl = curl_init();
         curl_setopt($curl, CURLOPT_URL,$this->request->url);
